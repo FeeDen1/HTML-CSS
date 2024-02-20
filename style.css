@@ -1,0 +1,302 @@
+
+
+:root {
+    font-size: 18px;
+    box-sizing: border-box;
+    color: hsl(201, 11%, 66%);
+    line-height: 1.5rem;
+}
+
+
+*,
+::before,
+::after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: "Bai Jamjuree", sans-serif;
+
+    padding: 0;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+
+
+h1,h2 {
+    color:hsl(210, 10%, 33%);
+    text-align: center;
+    margin: 0;
+}
+h2 {
+    font-size: 1.5rem;
+}
+h3 {
+    color:hsl(210, 10%, 33%);
+    margin: 0;
+}
+
+.heading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.navbar {
+    width: 100%;
+    position: relative;
+    min-height:25vh;
+    background: url("/images/bg-header-desktop.png") no-repeat;
+    background-position-y: -150px;
+    background-size: cover;
+    padding-bottom: 30px;
+}
+
+
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+
+}
+
+
+.text-nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.heading h1 {
+    font-size: 2rem;
+}
+
+p {
+    font-size: 1rem;
+    margin: 1.2em;
+}
+
+
+.heading p, .writing p  {
+    max-width:80%;
+    margin-top: 1em;
+
+    text-align: center;
+}
+
+.text-nav {
+    display: flex;
+    flex-direction: column;
+}
+
+.heading .buttons, .bottom .buttons {
+
+    min-width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+    margin-top: 2.5em;
+    margin-bottom: 3.5em;
+    align-self: flex-end;
+}
+
+.buttons .IOS{
+    border: none;
+    border-radius: 2rem;
+    box-shadow: 0 2px 2px #666666;
+    color: white;
+    font-size: 1rem;
+    background: hsl(171, 66%, 44%);
+    padding: 0.8em 2.5em 0.6em 2.5em;
+    text-decoration: none;
+}
+
+.buttons .IOS:hover {
+    background: #31a390;
+    cursor: pointer;
+}
+
+.buttons .Mac {
+    border-radius: 2rem;
+    border: none;
+    box-shadow: 0 2px 2px #666666;
+    color: white;
+    font-size: 1rem;
+    background: hsl(233, 100%, 69%);
+    padding: 0.8em 2.5em 0.6em 2.5em;
+    text-decoration: none;
+
+}
+
+.buttons .Mac:hover {
+    background: #3e5fe0;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+.writing {
+    max-width: 55%;
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+}
+
+
+
+.flex-photo {
+    display: flex;
+    margin-top: 8em;
+}
+
+.features {
+    display: flex;
+    flex-direction: column;
+    margin-left: 6em;
+    justify-content: space-between;
+    height: 50%;
+    padding-top: 3em;
+
+}
+
+
+
+
+.feature-1, .feature-2, .feature-3 {
+    max-width: 60%;
+    overflow: auto;
+}
+
+.feature-1 p, .feature-2 p, .feature-3 p {
+    height: 85px;
+}
+
+
+.flex-photo-2 {
+    margin-top: 8em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.flex-photo-2 .img-wrap {
+    margin-top: 3em;
+    margin-bottom: 1em;
+}
+
+.tools {
+    display: flex;
+    justify-content: center;
+    margin-top: 3.5em;
+
+}
+
+.tool-1, .tool-2, .tool-3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: stretch;
+    flex-basis: 30%;
+}
+
+
+.tool-3 {
+    justify-self: flex-end;
+}
+
+.tool-1 a, .tool-2 a, .tool-3 a {
+    order: -1;
+    margin-bottom: 2em;
+}
+
+.tool-1 p {
+    margin-top: 13px;
+}
+
+
+.links {
+    display: flex;
+    justify-content: space-around;
+    margin-top :3.5em;
+}
+
+.links img {
+    background-size: cover;
+    height: 2.5em;
+}
+
+
+.bottom {
+    margin-top: 3.5em;
+}
+
+.bottom-buttons {
+    margin-top: 2.5em;
+    margin-bottom: 3.5em;
+}
+
+
+footer {
+    display: block;
+    max-height: 15vh;
+    background-color:lightcyan;
+}
+
+
+footer p {
+    font-size: 0.9rem;
+    text-align: center;
+    color: hsl(210, 10%, 33%);
+    margin: 0;
+
+}
+
+.contacts {
+
+    display: flex;
+    flex-direction: column;
+    max-height: 15vh;
+    flex-wrap: wrap;
+    min-width: 300px;
+    overflow: hidden;
+    flex-grow: 1;
+
+}
+
+.contacts p {
+    flex-basis: 60px;
+    margin-right: 20px;
+
+    padding-top: 15px;
+
+}
+
+.footer-flex {
+    padding-left: 5em;
+    padding-right: 5em;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 200px;
+}
+
+
+
+.icons {
+    margin-left: auto;
+
+
+}
+
+.icons img:not(:last-child){
+    margin-right: 10px;
+}
+
+
+
+
